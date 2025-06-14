@@ -1,0 +1,116 @@
+
+  
+  :root  {--brand: #8246af;
+        --action: #ffa300;
+        --white: #ffffff;
+        --base-light: #cdb5df;
+        --base-dark: #0d0711;
+        --black: #111111;}
+
+/* CSS Reset */
+html {
+   box-sizing: border-box;
+   font-size: 16px;
+   font-family: "Inter", sans-serif;
+   color: var(--black);
+   scroll-behavior: smooth;}
+
+   /* dont show the dots or numbers on lists. */
+ *,
+ *:before,
+ *:after {
+   box-sizing: inherit;} 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: "Rubik", sans-serif;}
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ ol,
+ ul {
+   margin: 0;
+   padding: 0;}
+
+ ol,
+ ul {
+   list-style: none;}
+
+ img {
+   max-width: 100%;
+   height: auto;}
+
+input,
+button,
+textarea,
+select {
+   font: inherit;
+}
+/* Utility Clases */
+.flex { 
+    display:flex;}
+.space-between{
+    justify-content:space-between;}
+.column{
+    flex-direction:column;}
+article .icon{
+    width: 24px;}
+.icon{
+    width: 32px;}
+.padding-small{
+    padding: 8px;}
+.padding-medium{
+    padding: 16px;}
+.padding-large{
+    padding: 32px;}
+.padding-extralarge{
+    padding: 64px;}
+
+/* End Utility Clases */
+/* center hero, apply background color CDB5BF onto articles, 
+ */
+/* Header Styles */
+.logo{
+    max-height:100px;
+    height:auto;}
+.button{
+    padding: 12px 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--black);
+    border-radius: 4px;
+    background-color: var(--action);
+    transition: all 0.3s ease;
+    max-width: 100px;}
+/* End Header Styles */
+
+/* Hero Styles */
+.hero{
+    background-color: var(--brand);
+    box-sizing: inherit;
+    color: var(--white);
+    padding:56;
+    margin:5px 10px;
+    border-radius: 10px;
+}
+/* End Hero Styles */
+/* Body Styles */
+article {
+    background-color: var(--base-light);
+    margin:8px;
+    border-radius: 10px;
+    padding: 5%;
+}
+span {color: var(--action);}
+/* End Body Styles */
+.header{
+
+}
